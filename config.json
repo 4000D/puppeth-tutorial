@@ -1,0 +1,45 @@
+{
+  "genesis": {
+    "address": "0xe90824420dee2b623faa16d7c9f50c8cb690462f",
+    "chainid": 777
+  },
+  "ethstat": {
+    "proxyPort": 8180,
+    "domain": "192.168.27.57",
+    "secret": "Helo"
+  },
+  "bootnode": {
+    "datadir": "~/testnet/bootnode",
+    "port": 30313,
+    "nodename": "Bootnode"
+  },
+  "sealer": {
+    "datadir": "~/testnet/miner",
+    "DAGdir": "~/testnet/DAG",
+    "port": 30323,
+    "nodename": "Miner",
+    "coinbaes": {
+      "address": "0xe90824420dee2b623faa16d7c9f50c8cb690462f",
+      "pk": "0x1fb06e415fe7bfad222f2fde8d370ce5005e1698ade3f727c8b599070c88c2d0"
+    }
+  },
+  "explorer": {
+    "proxyPort": 8280,
+    "datadir": "~/testnet/explorer",
+    "port": 30333
+  },
+  "wallet": {
+    "proxyPort": 8380,
+    "datadir": "~/testnet/wallet",
+    "port": 30343,
+    "rpcport": 18545
+  },
+  "faucet": {
+    "proxyPort": 8480,
+    "port": 30363,
+    "address": "0x6D90e6359C8F982a58fb575c0C726fF7575F3b1C"
+  },
+  "dashboard": {
+    "port": 8580
+  }
+}
